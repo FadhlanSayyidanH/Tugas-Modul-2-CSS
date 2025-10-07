@@ -1,0 +1,14 @@
+p, h1{
+    color: white;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+}
+h1{
+    font-size: 36pt;
+}
+p{
+    font-size: 16pt;
+}
+body{
+    background-color: #416af0;
+}

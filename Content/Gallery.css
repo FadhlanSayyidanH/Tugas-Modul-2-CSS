@@ -1,0 +1,10 @@
+.gallery{
+    display: flex; /*Menampilkan terurut horizontal*/
+}
+img{
+    width: 30vw; /*lebar 30% layar*/
+}
+body{
+    display: block; /*item tampil terurut menurun dan center*/
+    justify-items: center;
+}

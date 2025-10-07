@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome Page</title>
+        <link rel="stylesheet" href="iframe.css">
+    </head>
+    <body>
+        <div class="headnav">
+            <iframe src="Content/header.html" id="head"></iframe>
+        </div>
+        <div class="mid_screen">
+            <iframe src="Content/tableMenu.html" id="menu"></iframe>
+            <iframe src="Content/Isi.html" id="main"></iframe>
+            <iframe src="Content/logo.html" id="logo"></iframe>
+        </div>
+        <div class="bottom">
+            <iframe src="Content/footer.html" id="footer"></iframe>
+        </div>
+        
+        <script>
+            function gantiMain(url){
+                document.getElementById('main').src = url;
+            }
+        </script>
+    </body>
+</html>

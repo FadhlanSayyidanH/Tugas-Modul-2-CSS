@@ -1,0 +1,17 @@
+img{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial Narrow';
+    font-size: 10pt;
+    margin: 1pt;
+    font-weight: bold;
+}
+body{
+    justify-items: center;
+    background-color: gray;
+    display: block;
+}

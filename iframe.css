@@ -1,0 +1,41 @@
+.headnav{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.headnav #head{
+    height: 19vh;
+}
+.mid_screen{
+    height: 73vh;
+    display: flex;
+    position: absolute;
+    top: 19vh;
+    left: 0;
+}
+.mid_screen #menu{
+    width: 15vw;
+}
+.mid_screen #main{
+    width: 65vw;
+}
+.mid_screen #logo{
+    width: 20vw;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bottom #footer{
+    height: 10vh;
+}
+iframe{
+    display: block;
+    width: 100vw;
+    border: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
